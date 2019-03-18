@@ -115,6 +115,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\demo.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\infixToPostfix.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\infixData.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
